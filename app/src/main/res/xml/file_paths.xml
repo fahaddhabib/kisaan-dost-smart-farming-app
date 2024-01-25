@@ -1,0 +1,11 @@
+<paths>
+    <!-- Path for sharing files in the app's cache directory -->
+    <cache-path name="shared_images" path="images/" />
+
+    <external-cache-path name="cache" path="." />
+
+    <!-- Add more paths as needed for sharing different types of files -->
+    <!-- <files-path name="shared_files" path="files/" /> -->
+    <!-- <external-path name="shared_images" path="Pictures/" /> -->
+    <!-- <external-files-path name="shared_files" path="Documents/" /> -->
+</paths>

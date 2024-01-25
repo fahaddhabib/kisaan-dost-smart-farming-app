@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.user.UserFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grey_5">
+
+            <ImageView
+                android:id="@+id/imageEdit"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:layout_constraintBottom_toBottomOf="@id/userBackgroundImage"
+                app:layout_constraintStart_toEndOf="@+id/userImageCardUserFrag"
+                app:layout_constraintTop_toTopOf="@id/userBackgroundImage"
+                android:elevation="0.1dp"
+                android:layout_margin="14sp"
+                android:src="@drawable/ic_baseline_edit_24"
+                app:tint="@color/white" />
+
+<!--            <ImageView
+                android:id="@+id/imageChecked"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@id/userBackgroundImage"
+                app:layout_constraintStart_toEndOf="@+id/userImageCardUserFrag"
+                app:layout_constraintTop_toTopOf="@id/userBackgroundImage"
+                android:elevation="0.1dp"
+                android:layout_margin="14sp"
+                android:src="@drawable/ic_baseline_check_24"
+                app:tint="@color/white" />-->
+
+            <ImageView
+                android:id="@+id/userBackgroundImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:background="@color/grey_10"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/uploadUserBackgroundImage"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:layout_constraintBottom_toBottomOf="@id/userBackgroundImage"
+                app:layout_constraintEnd_toStartOf="@+id/userImageCardUserFrag"
+                app:layout_constraintTop_toTopOf="@id/userBackgroundImage"
+                android:src="@drawable/ic_baseline_photo_camera_24"
+                app:tint="@color/white" />
+
+            <ProgressBar
+                android:id="@+id/uploadBackProgressProfile"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:layout_constraintBottom_toBottomOf="@id/userBackgroundImage"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/userBackgroundImage"
+                />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/userImageCardUserFrag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="76dp"
+                android:layout_marginBottom="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="@id/userBackgroundImage"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/userBackgroundImage"
+                >
+
+
+                <com.project.farmingapp.model.RoundedImageView
+                    android:id="@+id/userImageUserFrag"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:cornerRadius="75dp"
+                    app:borderWidth="2dp"
+                    app:borderColor="@color/white"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/photo_male_1"
+                    />
+
+                <ImageView
+                    android:id="@+id/uploadProfilePictureImage"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_baseline_photo_camera_24" />
+
+                <ProgressBar
+                    android:id="@+id/uploadProgressBarProfile"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/userNameUserProfileFrag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:text="Fahad"
+                android:textColor="@color/grey_5"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/userImageCardUserFrag"
+                />
+
+            <TextView
+                android:id="@+id/userAboutUserProfileFrag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/grey_5"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/userNameUserProfileFrag"
+                />
+
+            <LinearLayout
+                android:id="@+id/counts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toBottomOf="@id/userBackgroundImage"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/userPostsCountUserProfileFrag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textColor="@color/grey_90" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="POSTS"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                        android:textColor="@color/grey_60" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/userCityUserProfileFrag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gujranwala"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textColor="@color/grey_90" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="CITY"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                        android:textColor="@color/grey_60" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/aboutValueUserProfileFrag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Farmer"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textColor="@color/grey_90" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Occupation"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                        android:textColor="@color/grey_60" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/counts"
+                android:background="@color/grey_10" />
+
+            <TextView
+                android:id="@+id/cityTitleUserProfileFrag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="14dp"
+                android:layout_marginHorizontal="5dp"
+                android:text="City"
+                android:visibility="gone"
+                android:textColor="@color/fontColor"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/counts" />
+
+            <EditText
+                android:id="@+id/cityEditUserProfile"
+                app:layout_constraintTop_toBottomOf="@id/cityTitleUserProfileFrag"
+                app:layout_constraintStart_toEndOf="@+id/cityTitleUserProfileFrag"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="25dp"
+                android:layout_marginVertical="7dp"
+                android:layout_width="0dp"
+                android:hint="Enter City"
+                android:visibility="gone"
+                android:background="@drawable/edit_back"
+                android:layout_height="50dp"
+                android:paddingStart="10dp"
+                />
+
+            <TextView
+                android:id="@+id/aboutTitleUserProfileFrag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="14dp"
+                android:layout_marginHorizontal="5dp"
+                android:visibility="gone"
+                android:text="About"
+                android:textColor="@color/fontColor"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cityEditUserProfile" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="25dp"
+                android:background="@drawable/edit_back"
+                android:layout_marginVertical="7dp"
+                android:paddingStart="10dp"
+                android:visibility="gone"
+                android:hint="Enter About Information"
+                app:layout_constraintEnd_toStartOf="@id/saveBtnAboutUserProfileFrag"
+                android:id="@+id/aboutValueEditUserProfileFrag"
+                app:layout_constraintStart_toEndOf="@+id/cityTitleUserProfileFrag"
+                app:layout_constraintTop_toBottomOf="@id/aboutTitleUserProfileFrag"
+                />
+
+            <Button
+                android:id="@+id/saveBtnAboutUserProfileFrag"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="25dp"
+                android:text="✔"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@+id/aboutValueEditUserProfileFrag"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/aboutValueEditUserProfileFrag"
+                app:layout_constraintTop_toBottomOf="@id/aboutTitleUserProfileFrag" />
+
+            <TextView
+                android:id="@+id/txt_add_farms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="14dp"
+                android:layout_marginHorizontal="5dp"
+                android:text="FARMS"
+                android:textColor="@color/fontColor"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/aboutValueEditUserProfileFrag" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/userProfileFarmsRecycler"
+                android:layout_width="280dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                app:layout_constraintStart_toEndOf="@+id/txt_add_farms"
+                app:layout_constraintRight_toLeftOf="@+id/add_farms"
+                app:layout_constraintTop_toBottomOf="@id/txt_add_farms" />
+
+
+            <com.project.farmingapp.model.RoundedImageView
+                android:id="@+id/add_farms"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/add_farm"
+                app:cornerRadius="75dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txt_add_farms"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginVertical="5dp"
+                app:layout_constraintTop_toBottomOf="@+id/userProfileFarmsRecycler"
+                android:background="@color/grey_10" />
+
+            <TextView
+                android:id="@+id/postTitleUserProfileFrag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="14dp"
+                android:layout_marginHorizontal="5dp"
+                android:text="Ecomm"
+                android:textColor="@color/fontColor"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/userProfileFarmsRecycler" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/userProfilePostsRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"
+                android:scrollingCache="true"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="7dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/postTitleUserProfileFrag" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</FrameLayout>
+</layout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bottomNavHome"
+        android:icon="@drawable/dash_home"
+        android:title="Home"
+        app:cnb_iconColor="@color/home"/>
+
+    <item
+        android:id="@+id/bottomNavEcommerce"
+        android:icon="@drawable/buy"
+        android:title="E-Comm"
+        app:cnb_iconColor="@color/activity"/>
+
+    <item
+        android:id="@+id/bottomNavProfile"
+        android:icon="@drawable/ic_user_profile"
+        android:title="Profile"
+        app:cnb_iconColor="@color/favorites" />
+
+    <item
+        android:id="@+id/bottomNavArticles"
+        android:icon="@drawable/ic_user_profile"
+        android:title="Articles"
+        app:cnb_iconColor="@color/settings" />
+
+</menu>

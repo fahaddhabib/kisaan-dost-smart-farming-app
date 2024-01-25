@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#73bf44</color>
+    <color name="colorPrimaryDark">#73bf44</color>
+<!--    <color name="colorPrimaryDark">#00D100</color>-->
+    <color name="colorAccent">#fc7557</color>
+    <color name="white">#FFFFFF</color>
+    <color name="greenlite">#00D100</color>
+    <color name="secondary">#E2F2DA</color>
+    <color name="semiTransparentColor">#80FFFFFF</color>
+    <color name="fontColor">#FF404A3A</color>
+    <color name="secondary2">#88d498</color>
+    <color name="secondary3">#c6dabf</color>
+    <color name="colorThird">#fc7557</color>
+    <color name="greenDark">#359701</color>
+
+<color name="chip">
+    <selector xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:state_checked="true"
+            android:color="@color/colorPrimary" />
+        <item android:state_checked="false"
+            android:color="@color/secondary" />
+    </selector>
+</color>
+    <color name="black">#000000</color>
+    <color name="gray">#807F7F</color>
+
+    <color name="grey_3">#f7f7f7</color>
+    <color name="grey_5">#f2f2f2</color>
+    <color name="grey_10">#e6e6e6</color>
+    <color name="grey_20">#cccccc</color>
+    <color name="grey_40">#999999</color>
+    <color name="grey_60">#666666</color>
+    <color name="grey_80">#37474F</color>
+    <color name="grey_90">#263238</color>
+    <color name="grey_95">#1a1a1a</color>
+    <color name="grey_100_">#0d0d0d</color>
+
+    <color name="grey">#c9cacc</color>
+    <color name="background">#16191c</color>
+    <color name="red_400">#EF5350</color>
+    <color name="blue_grey_800">#37474F</color>
+
+    <color name="overlay_light_30">#36FFFFFF</color>
+
+    <color name="home">#2196F3</color>
+    <color name="activity">#673AB7</color>
+    <color name="favorites">#E91E63</color>
+    <color name="settings">#4CAF50</color>
+    <color name="btn_chat">#70c169</color>
+    <color name="red">#E53935</color>
+    <color name="green">#43A047</color>
+    <color name="weather">#8EE491</color>
+
+    <color name="overlay_light_80">#CCFFFFFF</color>
+    <color name="purple_500">#FF6200EE</color>
+
+</resources>

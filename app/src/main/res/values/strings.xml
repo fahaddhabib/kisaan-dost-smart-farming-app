@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">KISAAN DOST</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="loading">Loading...</string>
+    <string name="key_id">rzp_test_4KlOjIggoWzTlr</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="_92_3xx_xxxxxxx">+92 3XX XXXXXXX</string>
+    <string name="cont">Continue</string>
+    <string name="enter_your_mobile_number">Enter your mobile number:</string>
+    <string name="mobile_number">Mobile number</string>
+    <string name="verify">Verify</string>
+    <string name="logo_description">desp</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="enter_the_otp_code_sent_to_your_mobile_number">Enter the OTP code sent to your mobile number</string>
+    <string name="save">SAVE</string>
+    <string name="occupation">Occupation</string>
+
+    <string name="hi_there">Hi there!</string>
+    <string name="log_in_to_continue">Log in to continue.</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="welcome_sign">Welcome!</string>
+    <string name="sign_up_here">Sign up here.</string>
+    <string name="sign_up">Sign up</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="login_here"> Login.</string>
+    <string name="vector_image">Vector Image</string>
+    <string name="username">Username</string>
+    <string name="log_out">Log Out</string>
+    <string name="register">Register</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="user_names">Username</string>
+
+    <string name="user">User</string>
+    <string name="messages_here">Messages here!</string>
+    <string name="type_your_messages_here">Type a message</string>
+    <string name="a_sample_message">A sample message</string>
+    <string name="profile">Profile</string>
+    <string name="s">Username</string>
+    <string name="todo1">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="name">Name</string>
+    <string name="hey_there">Hey there!</string>
+    <string name="bio">Bio</string>
+    <string name="your_text_here">Your text here.</string>
+    <string name="cancel">Cancel</string>
+    <string name="once_you_start_chatting_all_your_chat_appear_here">All your chats will appear here!</string>
+    <string name="_9_00_pm">9:00 PM</string>
+    <string name="toodo">TODO</string>
+    <string name="search">Search…</string>
+    <string name="seen">Seen</string>
+    <string name="forgot_your_password">Forget password?\u0020</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="reset">RESET</string>
+    <string name="by_clicking_reset_you_will_receive_an_email_n_to_reset_your_password">By clicking RESET, you will receive an email \n to reset your password.</string>
+
+    <string name="very_long_lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dolor risus, aliquet a erat quis, viverra molestie orci. Suspendisse vehicula porta libero. Nam tincidunt nulla ipsum, vel iaculis risus scelerisque sed. Phasellus venenatis, enim vel placerat blandit, leo eros bibendum erat, at auctor mauris diam ac risus. Aenean sit amet congue neque, sit amet condimentum elit. Fusce lacinia massa vel nisl scelerisque, in scelerisque dolor elementum. Vivamus leo enim, congue dictum congue vitae, porttitor id purus. Sed eu ultricies erat. Morbi hendrerit, mi ac volutpat commodo, magna turpis pretium nibh, at fringilla eros lorem quis tellus. Praesent porttitor purus nibh, ac vestibulum massa fringilla vel. Pellentesque dapibus nulla quis luctus dictum. In scelerisque ut ex sed facilisis. Nunc eu finibus nulla, ut hendrerit sem. Suspendisse accumsan risus vel diam fringilla iaculis.</string>
+    <string name="navigationicon">navigationIcon</string>
+    <string name="evans_collins">Evans Collins</string>
+    <string name="evan_collins_mail_com">evan.collins@mail.com</string>
+    <string name="logout">Logout</string>
+    <string name="terms_conditions">Terms Conditions</string>
+    <string name="expert_kisaan">Expert Kisaan</string>
+    <string name="expense_calculator">Expense Calculator</string>
+    <string name="e_commerce">E-Commerce</string>
+    <string name="chat">Chat</string>
+    <string name="scattered_clouds">Scattered Clouds</string>
+    <string name="drizzling">Drizzling</string>
+    <string name="foggy">Foggy</string>
+    <string name="cloudy_sky">Cloudy sky</string>
+    <string name="cloudy">Cloudy</string>
+    <string name="heavy_rain">Heavy rain</string>
+    <string name="bright">Bright</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="tabs">Tabs</string>
+    <string name="add">Add</string>
+    <string name="otp">OTP</string>
+    <string name="otp_has_been_sent_to_you_on_your_mobile_phone_please_enter_it_below">OTP has been sent to you on your mobile phone. Please enter it below</string>
+
+</resources>

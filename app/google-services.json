@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "629017087864",
+    "firebase_url": "https://farmingapp-beab6-default-rtdb.firebaseio.com",
+    "project_id": "farmingapp-beab6",
+    "storage_bucket": "farmingapp-beab6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629017087864:android:99b501ff86fed18309428d",
+        "android_client_info": {
+          "package_name": "com.project.farmingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629017087864-7rh5ju39gfc3dq3rvkgu7c5qsh8ghci9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.farmingapp",
+            "certificate_hash": "0638053dceb0472fb468b819943ff7dd46b0781c"
+          }
+        },
+        {
+          "client_id": "629017087864-ksk5ssf381q3r8kl4of658atvetehek3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.farmingapp",
+            "certificate_hash": "2b33657d839978284300557f954018343b264ab7"
+          }
+        },
+        {
+          "client_id": "629017087864-vmld3t85c18np79jtf2ck1ahbj80pbf8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwbudVA4o3S166c9Q1rwuT2yJW9BMKAUc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629017087864-4l64eki8v73sujj1d26bbccmfje0rr2d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
