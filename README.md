@@ -17,6 +17,29 @@ Technologies Used:
     Material Design: Implemented intuitive and visually appealing UI elements following Material Design principles for enhanced user experience.
 
 Screenshots:
+## Screenshots
+
+<p float="left">
+  <img src="https://github.com/fahaddhabib/kisaan-dost-smart-farming-app/blob/master/assets/ss1.jpg" width="200" />
+    <img src="https://github.com/fahaddhabib/kisaan-dost-smart-farming-app/blob/master/assets/ss2.jpg" width="200" />
+    <img src="https://github.com/fahaddhabib/kisaan-dost-smart-farming-app/blob/master/assets/ss3.jpg" width="200" />
+    <img src="https://github.com/fahaddhabib/kisaan-dost-smart-farming-app/blob/master/assets/ss4.jpg" width="200" />
+    <img src="https://github.com/fahaddhabib/kisaan-dost-smart-farming-app/blob/master/assets/ss5.jpg" width="200" />
+    <img src="https://github.com/fahaddhabib/kisaan-dost-smart-farming-app/blob/master/assets/ss6.jpg" width="200" />
+    <img src="https://github.com/fahaddhabib/kisaan-dost-smart-farming-app/blob/master/assets/ss7.jpg" width="200" />
+    <img src="https://github.com/fahaddhabib/kisaan-dost-smart-farming-app/blob/master/assets/ss8.jpg" width="200" />
+    <img src="https://github.com/fahaddhabib/kisaan-dost-smart-farming-app/blob/master/assets/ss9.jpg" width="200" />
+    <img src="https://github.com/fahaddhabib/kisaan-dost-smart-farming-app/blob/master/assets/ss10.jpg" width="200" />
+    <img src="https://github.com/fahaddhabib/kisaan-dost-smart-farming-app/blob/master/assets/ss11.jpg" width="200" />
+    <img src="https://github.com/fahaddhabib/kisaan-dost-smart-farming-app/blob/master/assets/ss12.jpg" width="200" />
+    <img src="https://github.com/fahaddhabib/kisaan-dost-smart-farming-app/blob/master/assets/ss13.jpg" width="200" />
+    <img src="https://github.com/fahaddhabib/kisaan-dost-smart-farming-app/blob/master/assets/ss14.jpg" width="200" />
+    <img src="https://github.com/fahaddhabib/kisaan-dost-smart-farming-app/blob/master/assets/ss15.jpg" width="200" />
+    <img src="https://github.com/fahaddhabib/kisaan-dost-smart-farming-app/blob/master/assets/ss16.jpg" width="200" />
+    <img src="https://github.com/fahaddhabib/kisaan-dost-smart-farming-app/blob/master/assets/ss17.jpg" width="200" />
+    <img src="https://github.com/fahaddhabib/kisaan-dost-smart-farming-app/blob/master/assets/ss18.jpg" width="200" />
+    
+</p>
 
 
 
