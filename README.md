@@ -1,3 +1,5 @@
+![App Icon](https://github.com/fahaddhabib/kisaan-dost-smart-farming-app/blob/master/assets/appiconpng.png)
+
 Kisaan Dost Smart Farming App
 
 The Kisaan Dost Smart Farming App is a digital solution designed to empower farmers with advanced tools and information to enhance their agricultural practices. With user-friendly features and comprehensive functionalities, this app aims to revolutionize farming by leveraging technology.
